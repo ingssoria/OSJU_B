@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/back_desytim.iml" filepath="$PROJECT_DIR$/.idea/back_desytim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../desytim/.idea/desytim.iml" filepath="$PROJECT_DIR$/../desytim/.idea/desytim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../naxsUI/.idea/naxsUI.iml" filepath="$PROJECT_DIR$/../naxsUI/.idea/naxsUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BACKEND/.idea/naxst.iml" filepath="$PROJECT_DIR$/../BACKEND/.idea/naxst.iml" />
+    </modules>
+  </component>
+</project>
