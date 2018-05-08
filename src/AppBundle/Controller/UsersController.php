@@ -50,7 +50,7 @@ class UsersController extends FOSRestController
 
         //return new View($restresult,Response::HTTP_ACCEPTED);
 
-        return new JsonResponse(['token' => $token]);
+
 
 
         /*$restresult = $this->getDoctrine()->getRepository('AppBundle:users')->findAll();
@@ -93,6 +93,11 @@ class UsersController extends FOSRestController
         return $token_result;
     }
 
+    /*eccriptar pass antes de guardar en bd. Tomado de : http://librosweb.es/foro/pregunta/79/bad-credentials-al-hacer-login/*/
+    public function getSalt()
+    {
+        return base_convert(sha1(uniqid(mt_rand(), true)), 16, 36);
+    }
 
 
 }

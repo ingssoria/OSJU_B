@@ -1,0 +1,25 @@
+AppBundle\Entity\NUnidadNegocio:
+    type: entity
+    table: n_unidad_negocio
+    uniqueConstraints:
+        n_unidad_negocio_nombre_key:
+            columns:
+                - nombre
+    id:
+        idTipoUnidadNegocio:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_tipo_unidad_negocio
+            generator:
+                strategy: SEQUENCE
+    fields:
+        nombre:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+    lifecycleCallbacks: {  }

@@ -1,0 +1,33 @@
+AppBundle\Entity\UnidadNegocioUsuario:
+    type: entity
+    table: unidad_negocio_usuario
+    indexes:
+        IDX_799F7EF7781A1EAF:
+            columns:
+                - id_unidad_negocio
+        IDX_799F7EF7FCF8192D:
+            columns:
+                - id_usuario
+    id: {  }
+    manyToOne:
+        idUnidadNegocio:
+            targetEntity: UnidadNegocio
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_unidad_negocio:
+                    referencedColumnName: id_unidad_negocio
+            orphanRemoval: false
+        idUsuario:
+            targetEntity: SUsuario
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_usuario:
+                    referencedColumnName: id_usuario
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

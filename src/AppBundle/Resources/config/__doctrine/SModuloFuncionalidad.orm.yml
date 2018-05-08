@@ -1,0 +1,33 @@
+AppBundle\Entity\SModuloFuncionalidad:
+    type: entity
+    table: s_modulo_funcionalidad
+    indexes:
+        IDX_15BE767CCAC67ADB:
+            columns:
+                - id_modulo
+        IDX_15BE767C19F0B6FC:
+            columns:
+                - id_funcionalidad
+    id: {  }
+    manyToOne:
+        idModulo:
+            targetEntity: SModulo
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_modulo:
+                    referencedColumnName: id_modulo
+            orphanRemoval: false
+        idFuncionalidad:
+            targetEntity: SFuncionalidad
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_funcionalidad:
+                    referencedColumnName: id_funcionalidad
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

@@ -1,0 +1,26 @@
+AppBundle\Entity\SMembresia:
+    type: entity
+    table: s_membresia
+    id: {  }
+    fields:
+        contrasenna:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+        fecha:
+            type: date
+            nullable: false
+    oneToOne:
+        idUsuario:
+            targetEntity: SUsuario
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_usuario:
+                    referencedColumnName: id_usuario
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

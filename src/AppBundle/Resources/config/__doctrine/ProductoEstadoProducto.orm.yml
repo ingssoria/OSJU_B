@@ -1,0 +1,33 @@
+AppBundle\Entity\ProductoEstadoProducto:
+    type: entity
+    table: producto_estado_producto
+    indexes:
+        IDX_9CE89D6FF760EA80:
+            columns:
+                - id_producto
+        IDX_9CE89D6FBF137670:
+            columns:
+                - id_estado_producto
+    id: {  }
+    manyToOne:
+        idProducto:
+            targetEntity: Producto
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_producto:
+                    referencedColumnName: id_producto
+            orphanRemoval: false
+        idEstadoProducto:
+            targetEntity: EstadoProducto
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_estado_producto:
+                    referencedColumnName: id_estado_producto
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

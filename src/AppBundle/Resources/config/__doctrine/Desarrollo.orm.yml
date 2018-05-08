@@ -1,0 +1,29 @@
+AppBundle\Entity\Desarrollo:
+    type: entity
+    table: desarrollo
+    indexes:
+        IDX_D1594BA3781A1EAF:
+            columns:
+                - id_unidad_negocio
+    id:
+        idDesarrollo:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_desarrollo
+            generator:
+                strategy: SEQUENCE
+    manyToOne:
+        idUnidadNegocio:
+            targetEntity: UnidadNegocio
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_unidad_negocio:
+                    referencedColumnName: id_unidad_negocio
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

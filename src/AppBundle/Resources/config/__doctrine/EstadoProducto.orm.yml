@@ -1,0 +1,25 @@
+AppBundle\Entity\EstadoProducto:
+    type: entity
+    table: estado_producto
+    uniqueConstraints:
+        estado_producto_estado_key:
+            columns:
+                - estado
+    id:
+        idEstadoProducto:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_estado_producto
+            generator:
+                strategy: SEQUENCE
+    fields:
+        estado:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+    lifecycleCallbacks: {  }

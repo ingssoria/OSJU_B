@@ -1,0 +1,26 @@
+AppBundle\Entity\SModulo:
+    type: entity
+    table: s_modulo
+    uniqueConstraints:
+        s_modulo_nombre_modulo_key:
+            columns:
+                - nombre_modulo
+    id:
+        idModulo:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_modulo
+            generator:
+                strategy: SEQUENCE
+    fields:
+        nombreModulo:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+            column: nombre_modulo
+    lifecycleCallbacks: {  }

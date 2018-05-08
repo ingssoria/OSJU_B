@@ -1,0 +1,26 @@
+AppBundle\Entity\NTipoProducto:
+    type: entity
+    table: n_tipo_producto
+    uniqueConstraints:
+        n_tipo_producto_tipo_producto_key:
+            columns:
+                - tipo_producto
+    id:
+        idTipoProducto:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_tipo_producto
+            generator:
+                strategy: SEQUENCE
+    fields:
+        tipoProducto:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+            column: tipo_producto
+    lifecycleCallbacks: {  }

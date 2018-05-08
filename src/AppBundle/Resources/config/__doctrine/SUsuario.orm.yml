@@ -1,0 +1,63 @@
+AppBundle\Entity\SUsuario:
+    type: entity
+    table: s_usuario
+    uniqueConstraints:
+        s_usuario_usuario_key:
+            columns:
+                - usuario
+    id:
+        idUsuario:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_usuario
+            generator:
+                strategy: SEQUENCE
+    fields:
+        usuario:
+            type: string
+            nullable: false
+            length: 50
+            options:
+                fixed: false
+        nombre:
+            type: string
+            nullable: false
+            length: 50
+            options:
+                fixed: false
+        primerApellido:
+            type: string
+            nullable: false
+            length: 50
+            options:
+                fixed: false
+            column: primer_apellido
+        segundoApellido:
+            type: string
+            nullable: false
+            length: 50
+            options:
+                fixed: false
+            column: segundo_apellido
+        correo:
+            type: string
+            nullable: false
+            length: 100
+            options:
+                fixed: false
+        dni:
+            type: string
+            nullable: false
+            length: 20
+            options:
+                fixed: false
+        sexo:
+            type: string
+            nullable: false
+            length: 1
+            options:
+                fixed: true
+    lifecycleCallbacks: {  }

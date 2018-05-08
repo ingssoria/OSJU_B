@@ -1,0 +1,29 @@
+AppBundle\Entity\UnidadNegocio:
+    type: entity
+    table: unidad_negocio
+    indexes:
+        IDX_457CA3A98F45F0C2:
+            columns:
+                - id_tipo_unidad_negocio
+    id:
+        idUnidadNegocio:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_unidad_negocio
+            generator:
+                strategy: SEQUENCE
+    manyToOne:
+        idTipoUnidadNegocio:
+            targetEntity: NUnidadNegocio
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_tipo_unidad_negocio:
+                    referencedColumnName: id_tipo_unidad_negocio
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

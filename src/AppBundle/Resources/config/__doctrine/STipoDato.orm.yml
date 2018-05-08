@@ -1,0 +1,26 @@
+AppBundle\Entity\STipoDato:
+    type: entity
+    table: s_tipo_dato
+    uniqueConstraints:
+        s_tipo_dato_tipo_dato_key:
+            columns:
+                - tipo_dato
+    id:
+        idTipoDato:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_tipo_dato
+            generator:
+                strategy: SEQUENCE
+    fields:
+        tipoDato:
+            type: string
+            nullable: false
+            length: 50
+            options:
+                fixed: false
+            column: tipo_dato
+    lifecycleCallbacks: {  }

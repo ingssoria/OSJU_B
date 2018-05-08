@@ -1,0 +1,33 @@
+AppBundle\Entity\SUsuarioRol:
+    type: entity
+    table: s_usuario_rol
+    indexes:
+        IDX_5FCFF3FDA82FCAAC:
+            columns:
+                - id_susuario
+        IDX_5FCFF3FD22FA2A49:
+            columns:
+                - id_srol
+    id: {  }
+    manyToOne:
+        idSusuario:
+            targetEntity: SUsuario
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_susuario:
+                    referencedColumnName: id_usuario
+            orphanRemoval: false
+        idSrol:
+            targetEntity: SRol
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_srol:
+                    referencedColumnName: id_rol
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

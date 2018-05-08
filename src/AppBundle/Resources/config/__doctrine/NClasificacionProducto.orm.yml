@@ -1,0 +1,25 @@
+AppBundle\Entity\NClasificacionProducto:
+    type: entity
+    table: n_clasificacion_producto
+    uniqueConstraints:
+        n_clasificacion_producto_clasificacion_key:
+            columns:
+                - clasificacion
+    id:
+        idClasificacionProducto:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_clasificacion_producto
+            generator:
+                strategy: SEQUENCE
+    fields:
+        clasificacion:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+    lifecycleCallbacks: {  }

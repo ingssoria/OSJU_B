@@ -1,0 +1,34 @@
+AppBundle\Entity\DetalleProductoExclusivo:
+    type: entity
+    table: detalle_producto_exclusivo
+    uniqueConstraints:
+        detalle_producto_exclusivo_id_producto_key:
+            columns:
+                - id_producto
+    id:
+        idDetalleExclusivo:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_detalle_exclusivo
+            generator:
+                strategy: SEQUENCE
+    fields:
+        fechaExpiracion:
+            type: date
+            nullable: false
+            column: fecha_expiracion
+    manyToOne:
+        idProducto:
+            targetEntity: Producto
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_producto:
+                    referencedColumnName: id_producto
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

@@ -1,0 +1,25 @@
+AppBundle\Entity\SFuncionalidad:
+    type: entity
+    table: s_funcionalidad
+    uniqueConstraints:
+        s_funcionalidad_funcionalidad_key:
+            columns:
+                - funcionalidad
+    id:
+        idFuncionalidad:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_funcionalidad
+            generator:
+                strategy: SEQUENCE
+    fields:
+        funcionalidad:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+    lifecycleCallbacks: {  }

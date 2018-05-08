@@ -1,0 +1,55 @@
+AppBundle\Entity\Producto:
+    type: entity
+    table: producto
+    indexes:
+        IDX_A7BB06151E8880DB:
+            columns:
+                - id_clasificacion_producto
+        IDX_A7BB0615CF568DB9:
+            columns:
+                - id_tipo_producto
+        IDX_A7BB061574D3CB74:
+            columns:
+                - id_desarrollo
+    id:
+        idProducto:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            column: id_producto
+            generator:
+                strategy: SEQUENCE
+    manyToOne:
+        idClasificacionProducto:
+            targetEntity: NClasificacionProducto
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_clasificacion_producto:
+                    referencedColumnName: id_clasificacion_producto
+            orphanRemoval: false
+        idTipoProducto:
+            targetEntity: NTipoProducto
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_tipo_producto:
+                    referencedColumnName: id_tipo_producto
+            orphanRemoval: false
+        idDesarrollo:
+            targetEntity: Desarrollo
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_desarrollo:
+                    referencedColumnName: id_desarrollo
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

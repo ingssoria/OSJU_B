@@ -1,0 +1,33 @@
+AppBundle\Entity\SFuncionalidadTipodato:
+    type: entity
+    table: s_funcionalidad_tipodato
+    indexes:
+        IDX_A09B3C2D19F0B6FC:
+            columns:
+                - id_funcionalidad
+        IDX_A09B3C2DC051B506:
+            columns:
+                - id_tipo_dato
+    id: {  }
+    manyToOne:
+        idFuncionalidad:
+            targetEntity: SFuncionalidad
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_funcionalidad:
+                    referencedColumnName: id_funcionalidad
+            orphanRemoval: false
+        idTipoDato:
+            targetEntity: STipoDato
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_tipo_dato:
+                    referencedColumnName: id_tipo_dato
+            orphanRemoval: false
+    lifecycleCallbacks: {  }
