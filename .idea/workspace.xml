@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ab5a4c-a4b7-4e3e-8949-c5f47b6f68c7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-edit/admin-unidad-negocio-edit.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio.routes.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/admin/admin.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/admin/admin.routes.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/dashboard/dashboard.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/modelos/tipounidadnegocio.modelo.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/modelos/unidadnegocio.modelo.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/servicios/auth-interceptor/checkIfAuthenticated.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/servicios/tipounidadnegocio.service.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../desytim/src/app/servicios/unidadnegocio.service.ts" />
       <change beforePath="$PROJECT_DIR$/../BACKEND/.idea/naxst.iml" afterPath="$PROJECT_DIR$/../BACKEND/.idea/naxst.iml" />
       <change beforePath="$PROJECT_DIR$/../BACKEND/src/AppBundle/Entity/User.php" afterPath="$PROJECT_DIR$/../BACKEND/src/AppBundle/Entity/User.php" />
-      <change beforePath="$PROJECT_DIR$/../desytim/package-lock.json" afterPath="$PROJECT_DIR$/../desytim/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/../desytim/package.json" afterPath="$PROJECT_DIR$/../desytim/package.json" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/app.component.html" afterPath="$PROJECT_DIR$/../desytim/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/app.module.ts" afterPath="$PROJECT_DIR$/../desytim/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/../desytim/src/app/app.routes.ts" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/dashboard/dashboard.component.ts" afterPath="$PROJECT_DIR$/../desytim/src/app/dashboard/dashboard.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/dashboard/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/../desytim/src/app/dashboard/navbar/navbar.component.html" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/dashboard/navbar/navbar.component.ts" afterPath="$PROJECT_DIR$/../desytim/src/app/dashboard/navbar/navbar.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/login/login.component.html" afterPath="$PROJECT_DIR$/../desytim/src/app/login/login.component.html" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/login/login.component.ts" afterPath="$PROJECT_DIR$/../desytim/src/app/login/login.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/servicios/auth-service/auth-service.service.ts" afterPath="$PROJECT_DIR$/../desytim/src/app/servicios/auth-service/auth-service.service.ts" />
-      <change beforePath="$PROJECT_DIR$/../desytim/src/app/servicios/authguard/authguard.service.ts" afterPath="$PROJECT_DIR$/../desytim/src/app/servicios/authguard/authguard.service.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,86 +17,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin-unidad-negocio-list.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.html">
+      <file leaf-file-name="admin-unidad-negocio-list.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="360">
+              <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.routes.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../desytim/src/app/app.routes.ts">
+      <file leaf-file-name="admin-unidad-negocio-create.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="660">
+              <caret line="27" column="6" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-unidad-negocio-create.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.html">
+      <file leaf-file-name="admin-unidad-negocio-delete.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-delete/admin-unidad-negocio-delete.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-unidad-negocio-edit.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-edit/admin-unidad-negocio-edit.component.ts">
+      <file leaf-file-name="admin-unidad-negocio-delete.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-delete/admin-unidad-negocio-delete.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="810">
+              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#57#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unidadnegocio.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../desytim/src/app/servicios/unidadnegocio.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unidadnegocio.modelo.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../desytim/src/app/modelos/unidadnegocio.modelo.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminimage-edit.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/adminimage/adminimage-edit/adminimage-edit.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-unidad-negocio-edit.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-edit/admin-unidad-negocio-edit.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="179" lean-forward="false" selection-start-line="18" selection-start-column="179" selection-end-line="18" selection-end-column="179" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -129,20 +62,8 @@
       <file leaf-file-name="UnidadNegocioController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/UnidadNegocioController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-              <folding>
-                <element signature="e#120#155#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnidadNegocio.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/UnidadNegocio.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="660">
+              <caret line="114" column="0" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,6 +83,7 @@
       <find>pass</find>
       <find>load</find>
       <find>UnidadNegocio</find>
+      <find>sta</find>
     </findStrings>
     <replaceStrings>
       <replace>TipoUnidadNegocio</replace>
@@ -173,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
         <option value="$PROJECT_DIR$/../desytim/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/assets/octicons_package/index.js" />
@@ -201,14 +121,12 @@
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin.component.html" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin.component.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio.component.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin.routes.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio.routes.ts" />
         <option value="$PROJECT_DIR$/../naxsUI/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/dashboard/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/../desytim/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/modelos/unidadnegocio.modelo.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/servicios/authguard/tipounidadnegocio.service.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/servicios/tipounidadnegocio.service.ts" />
@@ -218,11 +136,15 @@
         <option value="$PROJECT_DIR$/../naxsUI/src/app/adminimage/adminimage-edit/adminimage-edit.component.html" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.html" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.ts" />
-        <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.html" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/UnidadNegocio.php" />
-        <option value="$PROJECT_DIR$/../desytim/src/app/servicios/unidadnegocio.service.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-edit/admin-unidad-negocio-edit.component.ts" />
         <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-edit/admin-unidad-negocio-edit.component.html" />
+        <option value="$PROJECT_DIR$/../desytim/src/app/app.routes.ts" />
+        <option value="$PROJECT_DIR$/../desytim/src/app/servicios/unidadnegocio.service.ts" />
+        <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.html" />
+        <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.ts" />
+        <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-delete/admin-unidad-negocio-delete.component.html" />
+        <option value="$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-delete/admin-unidad-negocio-delete.component.ts" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/UnidadNegocioController.php" />
       </list>
     </option>
@@ -354,10 +276,25 @@
             </path>
             <path>
               <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back_desytim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BACKEND" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BACKEND" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BACKEND" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BACKEND" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
@@ -397,6 +334,15 @@
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin-unidad-negocio" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin-unidad-negocio-create" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desytim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin-unidad-negocio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin-unidad-negocio-delete" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
@@ -465,22 +411,21 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="adminimage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="adminimage-create" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adminimage-delete" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="back_desytim" type="b2602c69:ProjectViewProjectNode" />
               <item name="naxsUI" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="adminimage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="adminimage-edit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="servicios" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,15 +434,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../desytim" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\desytim\src\app\servicios" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\desytim\src\app\admin\admin-unidad-negocio\admin-unidad-negocio-delete" />
       <recent name="C:\xampp\htdocs\desytim\src\app\admin\admin-unidad-negocio\admin-unidad-negocio-edit" />
       <recent name="C:\xampp\htdocs\back_desytim\src\AppBundle\Controller" />
       <recent name="C:\xampp\htdocs\desytim\src\app\modelos" />
       <recent name="C:\xampp\htdocs\desytim\src\app\servicios\authguard" />
-      <recent name="C:\xampp\htdocs\desytim\src\app\admin\admin-unidad-negocio" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\desytim\src\app\servicios" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -533,19 +478,21 @@
       <workItem from="1525440077659" duration="5540000" />
       <workItem from="1525454177972" duration="12990000" />
       <workItem from="1525642528273" duration="9551000" />
-      <workItem from="1525706955742" duration="18610000" />
+      <workItem from="1525706955742" duration="20203000" />
+      <workItem from="1525785350762" duration="17138000" />
+      <workItem from="1525834106710" duration="49000" />
+      <workItem from="1525865906637" duration="630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145264000" />
+    <option name="totallyTimeSpent" value="164674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="44" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -560,6 +507,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -599,62 +547,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/image-detail/image-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/adminimage/adminimage-list/adminimage-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/servicios/image.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/servicios/auth-service/auth-service.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="65" lean-forward="true" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/servicios/usuario.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/servicios/usuario.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/servicios/auth-service/auth-service.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../desytim/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -704,26 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TokenController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="53" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BACKEND/src/AppBundle/Controller/ImagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="29" column="77" lean-forward="false" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -794,15 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="79" lean-forward="false" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!block;n#addTipoUnidadNegocio#0;n#TipoUnidadNegocioService#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="141" column="6" lean-forward="false" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,17 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,15 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/app.routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,33 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/adminimage/adminimage-edit/adminimage-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/modelos/unidadnegocio.modelo.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,9 +764,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/adminimage/adminimage-delete/adminimage-delete.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/adminimage/adminimage-edit/adminimage-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/app.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/image-list/image-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/image-list/image-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/image-detail/image-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/image-detail/image-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/modelos/unidadnegocio.modelo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../naxsUI/src/app/servicios/image.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BACKEND/src/AppBundle/Controller/ImagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2165">
+          <caret line="29" column="77" lean-forward="false" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -961,33 +855,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="18" column="179" lean-forward="false" selection-start-line="18" selection-start-column="179" selection-end-line="18" selection-end-column="179" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.html">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../desytim/src/app/servicios/unidadnegocio.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="780">
+          <caret line="41" column="64" lean-forward="false" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-list/admin-unidad-negocio-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-create/admin-unidad-negocio-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-delete/admin-unidad-negocio-delete.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../desytim/src/app/admin/admin-unidad-negocio/admin-unidad-negocio-delete/admin-unidad-negocio-delete.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/UnidadNegocioController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#120#155#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="114" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

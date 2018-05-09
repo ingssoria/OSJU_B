@@ -82,6 +82,28 @@ class UnidadNegocioController extends FOSRestController
     }
 
     /**
+     * @Rest\Post("/api/deleteUN")
+     */
+    public function deleteUNAction(Request $request){
+
+        //$a = $request->get(0)['idUnidadNegocio'];
+        $em = $this->getDoctrine()->getManager();
+
+        $a = "";
+        foreach ($request as $r){
+            $a[] = $r;
+        }
+        /*$unidadNegocio = $this->getDoctrine()->getRepository('AppBundle:UnidadNegocio')->find($id);
+        if($unidadNegocio === null){
+            return new View("La UN ya no se encuentra disponible", Response::HTTP_NOT_FOUND);
+        }
+        $em->remove($unidadNegocio);
+        $em->flush();*/
+
+        return new View($a/*"La UN fue eliminada"*/, Response::HTTP_OK);
+    }
+
+    /**
      * @Rest\Put("/api/unidadnegocio/{id}")
      */
     public function updateAction($id, Request $request){
